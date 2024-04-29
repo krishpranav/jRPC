@@ -16,9 +16,34 @@
     "url": "https://github.com/krishpranav/jRPC/issues"
   },
   "homepage": "https://github.com/krishpranav/jRPC#readme",
+  "dependencies": {
+    "delegates": "^1.0.0",
+    "destroy": "^1.2.0",
+    "ee-first": "^1.1.1",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.pull": "^4.1.0"
+  },
   "devDependencies": {
     "jsdoc-to-markdown": "^6.0.1",
     "jest": "^26.6.3",
-    "standard": "^16.0.3"
+    "standard": "^16.0.3",
+    "@grpc/grpc-js": "^1.6.10",
+    "@grpc/proto-loader": "^0.7.0",
+    "async": "^3.2.4",
+    "ava": "^3.15.0",
+    "benchmarkify": "^3.0.0",
+    "google-protobuf": "^3.21.0",
+    "highland": "3.0.0-beta.10",
+    "is-ci": "^3.0.1",
+    "jsdoc-to-markdown": "^7.1.1",
+    "lodash": "^4.17.21",
+    "nyc": "^15.1.0",
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0",
+    "test-console": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@grpc/grpc-js": "^1.6.10",
+    "@grpc/proto-loader": "^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.7.0"
   }
 }
